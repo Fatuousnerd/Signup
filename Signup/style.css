@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Unbounded', cursive;
+}
+body{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background: url("https://source.unsplash.com/random/1678x1678/?nature,snow,road");
+}
+.box{
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    height: 75vh;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    border: 1px solid #fff;
+    outline: none;
+    position: absolute;
+    top: 20%;
+    left: 37%;
+    padding: 5px;
+}
+.card{
+    width: 95%;
+    height: 20%;
+    justify-self: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 5px;
+    margin-top: 0;
+    border-radius: 29px;
+    background: #e0e0e0;
+    box-shadow:  5px -5px 7px #7b7b7b,
+             -5px 5px 7px #ffffff;
+}
+.wrapper{
+    justify-content: space-evenly;
+    width: 95%;
+    height: 55%;
+    border-radius: 29px;
+    background: #e0e0e0;
+    box-shadow:  5px -5px 7px #7b7b7b,
+             -5px 5px 7px #ffffff;
+}
+form input{
+    margin-top: 20px;
+    color: #7b7b7b;
+    padding: 8px;
+    width: 90%;
+    height: auto;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background: #e0e0e0;
+    box-shadow:  5px -5px 7px #7b7b7b,
+             -5px 5px 7px #ffffff;
+}
+form input::placeholder{
+    color: #7b7b7b;
+}
+form input:focus{
+    border: 2px solid #9a9a9a;
+}
+input[type="submit"]{
+    width: 50%;
+}
+.alts{
+    width: 95%;
+    height: auto;
+    min-height: 10%;
+    justify-self: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    /*font-size: 40px;*/
+    margin-bottom: 5px;
+    margin-top: 0;
+    border-radius: 29px;
+    background: #e0e0e0;
+    box-shadow:  5px -5px 7px #7b7b7b,
+             -5px 5px 7px #ffffff;
+}
+
+
+
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
